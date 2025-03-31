@@ -1,0 +1,480 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+@font-face {
+	font-family: 'Teddy Bear';
+	src: url('./fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'beer money';
+	src: url('./fonts/beer_money.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/beer_money.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/beer_money.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/beer_money.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/beer_money.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/beer_money.svg#beer_money') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+
+
+header{
+    background: url(dev_header.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.headercontainer img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.headercontainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 30px;
+    align-items: center;
+    
+}
+
+.headercontainer2{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+    color: bisque;
+    text-decoration: none;
+}
+
+.headercontainer2 a{
+    background-color: #b4825f;
+    border: 3px solid black;
+    border-radius: 10px; 
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.headercontainer2 a:hover{
+    transition: 0.5s;
+    color: bisque;
+}
+
+.headercontainer3{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headercontainer3 a{
+    background-color: #b4825f;
+    border: 3px solid black;
+    border-radius: 10px; 
+    color: bisque;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.headercontainer3 a:hover{
+    transition: 0.3s;
+    box-shadow: 0 0 20px #b4825f, 0 0 20px #b4825f;
+
+}
+
+.headertitle{
+    width: 500px;
+    height: 100%;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #28150e;
+    margin-left: 140px;
+}   
+
+.headertitle img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+
+.headertitle p{
+    margin-left: 15px;
+    font-family: 'beer money';
+    font-size: 40px;
+    text-align: center;
+}
+
+.headertitlep2{
+    font-size: 140px;
+    font-family: 'Teddy Bear';
+    margin: 20px;
+}
+
+.headerbutton{
+    padding: 10px;
+    margin-left: 220px;
+    margin-top: 25px;
+}
+
+.headerbuttonb:hover{
+    transition: 0.3s;
+    box-shadow: 0 0 20px black, 0 0 20px black;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.headerbutton button{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: bisque;
+    width: 150px;
+    margin-left: 100px;
+    height: 100px;
+    border-radius: 60px;
+    font-size: 30px;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.mainlearn{
+    display: flex;
+    gap: 300px;
+    background-color: #28150e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.usefulp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 600px;
+    margin-top: 30px;
+}
+
+.usefulp1{
+    font-family: 'beer money';
+    font-size: 50px;
+    color: #b16c3d;
+    text-align: center;
+}
+
+.usefulp2{
+    font-family: 'beer money';  
+    font-size: 50px;
+    margin-top: 20px;
+    color: bisque;
+    text-align: center;
+}
+
+
+
+.mainlearn{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    background: url(dev1.jpg);
+}
+
+.mainlearn h1{
+    color: #452b1a;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mainlearn p{
+    color: bisque;
+    font-size: 35px;
+    font-family: "beer money";
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.mainorder{
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}
+
+.mainorderp12{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+}
+
+.mainorderp1{
+    font-family: '';
+    font-size: 45px;
+    color: #452b1a;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.mainorderp2{
+    height: 100%;
+    width: 50%;
+    font-family: '';
+    font-size: 20px;
+    margin-top: 10px;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.mainordercontainer{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-top: 100px;
+}
+
+.mainorderdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainorderdiv img{
+    width: 130px;
+    height: 130px;
+}
+
+.mainorder1{
+    font-family: "beer money";
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;
+    color: #452b1a;
+}
+
+.mainorder2{
+    text-align: center;
+}
+
+.mainorder3{
+    text-align: center;
+}
+
+.mainorderb{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: 3px solid #452b1a;
+    border-radius: 5px;
+    color: bisque;
+    background-color: #452b1a;
+    font-size: 20px;
+}
+
+.mainorderb:hover{
+    cursor: pointer;
+    text-shadow: 0 0 20px bisque, 0 0 20px bisque;
+    box-shadow: 0 0 20px #452b1a, 0 0 20px #452b1a;
+    transition: 0.5s;
+}
+
+
+
+
+.mainwhycont{
+    display: flex;
+    flex-direction: column;
+    background: url(dev2.jpg);
+}
+
+.mainwhycontp{
+    text-align: center;
+}
+
+.mainwhycontp h1{
+    margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.mainwhycontp p{
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'beer money';
+    font-size: 25px;
+}
+
+.mainwhy{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainwhy div{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    height: auto;
+    width: 200px;
+}
+
+.mainwhy div h1{
+    color: bisque;
+    text-align: center;
+    font-family: 'beer money';
+    font-size: 25px;
+}
+
+.mainwhy div p{
+    color: bisque;
+    text-align: center;
+    font-size: 25px;
+}
+
+.mainwhy div img{
+    height: 200px;
+    width: 200px;
+}
+
+.mainwhy1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.mainwhy2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 10%;
+    width: 10%;
+}
+
+
+
+.mainwhy3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 10%;
+    width: 10%;
+}
+
+
+
+.mainwhy4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 10%;
+    width: 10%;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30%;
+    color: black;
+    background-color: white;
+}
+
+.footerleft{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footerleft div{
+    font-size: 15px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footerleft div img{
+    width: 100px;
+    height: 100px;
+} 
+
+.footerright{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.footerright div p{
+    font-size: 30px;
+    font-family: 'beer money';
+}
+
+.footerright div div{
+    display: flex;
+    gap: 5px;
+}
+
+.footerright img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.formbody{
+    background: url(https://static.vecteezy.com/system/resources/previews/024/669/924/non_2x/coffee-beans-with-water-splash-background-generative-ai-free-photo.jpeg);    
+}
+
+form{
+    width: 400px;
+    height: 400px;
+    margin-top: 10%;
+    margin-left: 35%;
+    border: 5px solid bisque;
+    background: url(https://elements-resized.envatousercontent.com/elements-cover-images/c14bdf20-c6cb-4ca0-a125-5a2701b715dd?w=433&cf_fit=scale-down&q=85&format=auto&s=9e1fd66d4bd932969eb79a26bbd96074aa5841b08dcc73ec8df21a7923ceb5ee);
+    color: black;
+}
+
+form.form-example {
+    display: table;
+  }
+  
+div.form-example {
+    display: table-row;
+  }
+  
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  
+label {
+    padding-right: 10px;
+
+  }
+
