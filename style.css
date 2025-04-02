@@ -194,16 +194,15 @@ body{
 }
 
 .mainlearn h1{
-    color: #452b1a;
+    color: black;
     font-size: 50px;
     text-align: center;
     margin-top: 50px;
 }
 
 .mainlearn p{
-    color: bisque;
+    color: black;
     font-size: 35px;
-    font-family: "beer money";
     text-align: center;
     margin-bottom: 50px;
     margin-left: 50px;
@@ -248,23 +247,32 @@ body{
 
 .mainordercontainer{
     height: 100%;
-    width: 40%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    margin: auto;
-    margin-top: 20px;
-    margin-top: 100px;
+    margin-left: 15%;
+    margin-bottom: 120px;
+    margin-top: 120px;
+    align-items: center;
 }
 
 .mainorderdiv{
+    background-color: wheat;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 10px; 
+    align-items: center;
+    height: 100%;
+    width: 20%;
     display: flex;
     flex-direction: column;
 }
 
 .mainorderdiv img{
-    width: 130px;
-    height: 130px;
+    align-items: center;
+    width: 100%;
+    height: 300px;
 }
 
 .mainorder1{
@@ -391,7 +399,7 @@ body{
 
 
 footer{
-    background: url(footer.jpg);
+    background: url(dev1.jpg);
     width: 100%;
     height: 100%;
     display: flex;
@@ -404,7 +412,7 @@ footer{
 .footerleft{
     margin-top: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
 }
 
