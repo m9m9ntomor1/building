@@ -30,7 +30,7 @@
 
 
 header{
-    background: url(dev_header.jpg);
+    background: url(image_2dev_header.jpg);
     width: 100%;
     height: 100%;
 }
@@ -190,7 +190,7 @@ body{
     display: flex;
     gap: 50px;
     flex-direction: column;
-    background: url(dev1.jpg);
+    background: url(image_3dev1.jpg);
 }
 
 .mainlearn h1{
@@ -251,7 +251,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    margin-left: 15%;
+    justify-content: center;
     margin-bottom: 120px;
     margin-top: 120px;
     align-items: center;
@@ -264,7 +264,7 @@ body{
     border-radius: 10px; 
     align-items: center;
     height: 100%;
-    width: 20%;
+    width: 25%;
     display: flex;
     flex-direction: column;
 }
@@ -312,9 +312,9 @@ body{
 
 
 .mainwhycont{
-    display: flex;
+    display: flex; 
     flex-direction: column;
-    background: url(dev2.jpg);
+    background: url(image_10dev2.jpg);
 }
 
 .mainwhycontp{
@@ -336,13 +336,18 @@ body{
 
 .mainwhy{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     flex-wrap: wrap;
+    margin-left: 15%;
 }
 
 .mainwhy div{
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
     margin-bottom: 30px;
-    height: auto;
+    height: 100%;
     width: 200px;
 }
 
@@ -360,8 +365,8 @@ body{
 }
 
 .mainwhy div img{
-    height: 200px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
 }
 
 .mainwhy1{
@@ -374,8 +379,6 @@ body{
 .mainwhy2{
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 10%;
-    width: 10%;
 }
 
 
@@ -383,8 +386,6 @@ body{
 .mainwhy3{
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 10%;
-    width: 10%;
 }
 
 
@@ -392,14 +393,12 @@ body{
 .mainwhy4{
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 10%;
-    width: 10%;
 }
 
 
 
 footer{
-    background: url(dev1.jpg);
+    background: url(image_15footer.jpg);
     width: 100%;
     height: 100%;
     display: flex;
@@ -428,39 +427,8 @@ footer{
     height: 100px;
 } 
 
-
-.formbody{
-    background: url(https://static.vecteezy.com/system/resources/previews/024/669/924/non_2x/coffee-beans-with-water-splash-background-generative-ai-free-photo.jpeg);    
+@media only screen and (max-width: 1200px){
+    .headercontainer3 {display: none;}
+    .mainorderdiv {width: 35%;}
 }
-
-form{
-    width: 400px;
-    height: 400px;
-    margin-top: 10%;
-    margin-left: 35%;
-    border: 5px solid bisque;
-    background: url(https://elements-resized.envatousercontent.com/elements-cover-images/c14bdf20-c6cb-4ca0-a125-5a2701b715dd?w=433&cf_fit=scale-down&q=85&format=auto&s=9e1fd66d4bd932969eb79a26bbd96074aa5841b08dcc73ec8df21a7923ceb5ee);
-    color: black;
-}
-
-form.form-example {
-    display: table;
-  }
-  
-div.form-example {
-    display: table-row;
-  }
-  
-label, input {
-    display: table-cell;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 20px;
-  }
-  
-label {
-    padding-right: 10px;
-
-  }
 
