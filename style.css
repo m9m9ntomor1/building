@@ -336,14 +336,16 @@ body{
 
 .mainwhy{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    gap: 100px;
     flex-wrap: wrap;
-    margin-left: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .mainwhy div{
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 50px;
     margin-bottom: 30px;
@@ -351,17 +353,12 @@ body{
     width: 200px;
 }
 
-.mainwhy div h1{
-    color: bisque;
-    text-align: center;
-    font-family: 'beer money';
-    font-size: 25px;
-}
 
 .mainwhy div p{
-    color: bisque;
+    color: white;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
+    margin-bottom: 100px;
 }
 
 .mainwhy div img{
@@ -430,5 +427,21 @@ footer{
 @media only screen and (max-width: 1200px){
     .headercontainer3 {display: none;}
     .mainorderdiv {width: 35%;}
+    .mainwhy {margin-left: 15%; margin-right: 15%;}
+    .mainwhy div p{margin-bottom: 0px;}
+    .footerleft div img{width: 50px; height: 50px;}
+}
+
+@media only screen and (max-width: 730px)
+{
+    .headercontainer2{display: none;}
+    .headertitle{margin-left: 0; width: 100%;}
+    .headertitlep2{font-size: 40px; text-align: center;}
+    .mainlearn h1{font-size: 100%;}
+    .mainlearn p{font-size: 100%; margin-left: 5%; margin-right: 5%;}
+    .mainordercontainer{gap: 10px;}
+    .mainorderdiv img{height: 100px;}
+    .mainwhy{margin-left: 5%; margin-right: 5%; gap: 10px;}
+    .footerleft{flex-direction: column;}
 }
 
